@@ -21,6 +21,12 @@ for (var i in arrPerson) {
    
 	arrPerson[i] = human;
 
-human.sayHi();
+
+
 }
 
+
+arrPerson.forEach(function(elem) {
+      elem.sayHi();
+    }
+);
